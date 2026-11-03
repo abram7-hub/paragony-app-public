@@ -1,0 +1,78 @@
+{
+  "documentType": "RECEIPT",
+  "store": {
+    "name": "Lidl Demo",
+    "chain": "Lidl",
+    "address": null,
+    "taxId": null
+  },
+  "purchaseDate": "2000-01-07",
+  "purchaseTime": "12:00",
+  "documentNumber": null,
+  "transactionNumber": null,
+  "currency": "PLN",
+  "items": [
+    {
+      "position": 1,
+      "nameRaw": "Produkt testowy 1",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "7,00",
+      "grossValueText": "7,00",
+      "finalValueText": "7,00",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 2,
+      "nameRaw": "Produkt testowy 2",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "7,20",
+      "grossValueText": "7,20",
+      "finalValueText": "7,20",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 3,
+      "nameRaw": "Produkt testowy 3",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "7,40",
+      "grossValueText": "7,40",
+      "finalValueText": "7,40",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 4,
+      "nameRaw": "Produkt testowy 4",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "7,60",
+      "grossValueText": "7,60",
+      "finalValueText": "7,60",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    }
+  ],
+  "documentDiscounts": [],
+  "totalDiscountText": null,
+  "vatSummary": [],
+  "fiscalTotalText": "29,20",
+  "amountDueText": "29,20",
+  "payments": [
+    {
+      "method": "TEST",
+      "amountText": "29,20"
+    }
+  ],
+  "codeContent": null,
+  "uncertainFields": [],
+  "notes": null
+}

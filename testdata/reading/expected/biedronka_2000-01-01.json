@@ -1,0 +1,83 @@
+{
+  "documentType": "RECEIPT",
+  "store": {
+    "name": "Biedronka Demo",
+    "chain": "Biedronka",
+    "address": null,
+    "taxId": null
+  },
+  "purchaseDate": "2000-01-01",
+  "purchaseTime": "12:00",
+  "documentNumber": null,
+  "transactionNumber": null,
+  "currency": "PLN",
+  "items": [
+    {
+      "position": 1,
+      "nameRaw": "Produkt testowy 1",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "1,00",
+      "grossValueText": "1,00",
+      "finalValueText": "1,00",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 2,
+      "nameRaw": "Produkt testowy 2",
+      "quantityText": "2",
+      "unit": "PCS",
+      "unitPriceText": "1,20",
+      "grossValueText": "2,40",
+      "finalValueText": "1,90",
+      "discounts": [
+        {
+          "label": "Test",
+          "amountText": "0,50"
+        }
+      ],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 3,
+      "nameRaw": "Produkt testowy 3",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "1,40",
+      "grossValueText": "1,40",
+      "finalValueText": "1,40",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 4,
+      "nameRaw": "Produkt testowy 4",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "1,60",
+      "grossValueText": "1,60",
+      "finalValueText": "1,60",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    }
+  ],
+  "documentDiscounts": [],
+  "totalDiscountText": null,
+  "vatSummary": [],
+  "fiscalTotalText": "5,90",
+  "amountDueText": "5,90",
+  "payments": [
+    {
+      "method": "TEST",
+      "amountText": "5,90"
+    }
+  ],
+  "codeContent": null,
+  "uncertainFields": [],
+  "notes": null
+}

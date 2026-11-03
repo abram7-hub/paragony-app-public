@@ -1,0 +1,105 @@
+{
+  "type": "object",
+  "properties": {
+    "documentType": {
+      "type": "string",
+      "enum": ["RECEIPT", "APP_SCREENSHOT", "INVOICE", "OTHER"]
+    },
+    "store": {
+      "type": "object",
+      "properties": {
+        "name": {"type": "string", "nullable": true},
+        "chain": {"type": "string", "nullable": true},
+        "address": {"type": "string", "nullable": true},
+        "taxId": {"type": "string", "nullable": true}
+      }
+    },
+    "purchaseDate": {"type": "string", "nullable": true, "description": "YYYY-MM-DD"},
+    "purchaseTime": {"type": "string", "nullable": true, "description": "HH:MM"},
+    "documentNumber": {"type": "string", "nullable": true},
+    "transactionNumber": {"type": "string", "nullable": true},
+    "currency": {"type": "string", "description": "ISO code, e.g. PLN"},
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "position": {"type": "integer"},
+          "nameRaw": {"type": "string"},
+          "quantityText": {"type": "string", "description": "as printed, e.g. 2 or 0,560"},
+          "unit": {"type": "string", "enum": ["PCS", "KG", "L", "OTHER"]},
+          "unitPriceText": {"type": "string", "nullable": true},
+          "grossValueText": {"type": "string", "description": "value before discount, as printed"},
+          "discounts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": {"type": "string"},
+                "amountText": {"type": "string", "description": "positive amount, as printed without minus sign"}
+              },
+              "required": ["label", "amountText"]
+            }
+          },
+          "finalValueText": {"type": "string", "nullable": true, "description": "value after item discounts, only if printed"},
+          "vatRate": {"type": "string", "nullable": true, "description": "tax letter as printed: A, B, C, D..."},
+          "itemType": {"type": "string", "enum": ["PRODUCT", "BAG", "DEPOSIT", "FEE", "OTHER"]}
+        },
+        "required": ["position", "nameRaw", "quantityText", "unit", "grossValueText", "discounts", "itemType"]
+      }
+    },
+    "documentDiscounts": {
+      "type": "array",
+      "description": "discounts for the whole purchase that are NOT printed under a specific item",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {"type": "string"},
+          "amountText": {"type": "string"}
+        },
+        "required": ["label", "amountText"]
+      }
+    },
+    "totalDiscountText": {"type": "string", "nullable": true, "description": "printed total of all discounts, e.g. OPUSTY LACZNIE"},
+    "vatSummary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "vatRate": {"type": "string"},
+          "percentText": {"type": "string", "nullable": true},
+          "taxableText": {"type": "string"},
+          "taxText": {"type": "string", "nullable": true}
+        },
+        "required": ["vatRate", "taxableText"]
+      }
+    },
+    "fiscalTotalText": {"type": "string", "nullable": true, "description": "SUMA PLN on a fiscal receipt, without deposits"},
+    "amountDueText": {"type": "string", "description": "what the customer paid: DO ZAPLATY, or SUMA if there is no separate line"},
+    "payments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "method": {"type": "string"},
+          "amountText": {"type": "string"}
+        },
+        "required": ["method", "amountText"]
+      }
+    },
+    "codeContent": {"type": "string", "nullable": true, "description": "number under the receipt barcode, if readable"},
+    "uncertainFields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {"type": "string", "description": "e.g. items[3].unitPriceText or purchaseDate"},
+          "reason": {"type": "string"}
+        },
+        "required": ["path", "reason"]
+      }
+    },
+    "notes": {"type": "string", "nullable": true}
+  },
+  "required": ["documentType", "store", "currency", "items", "documentDiscounts", "vatSummary", "amountDueText", "payments", "uncertainFields"]
+}

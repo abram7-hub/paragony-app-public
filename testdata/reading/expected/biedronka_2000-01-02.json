@@ -1,0 +1,78 @@
+{
+  "documentType": "RECEIPT",
+  "store": {
+    "name": "Biedronka Demo",
+    "chain": "Biedronka",
+    "address": null,
+    "taxId": null
+  },
+  "purchaseDate": "2000-01-02",
+  "purchaseTime": "12:00",
+  "documentNumber": null,
+  "transactionNumber": null,
+  "currency": "PLN",
+  "items": [
+    {
+      "position": 1,
+      "nameRaw": "Produkt testowy 1",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "2,00",
+      "grossValueText": "2,00",
+      "finalValueText": "2,00",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 2,
+      "nameRaw": "Produkt testowy 2",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "2,20",
+      "grossValueText": "2,20",
+      "finalValueText": "2,20",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 3,
+      "nameRaw": "Produkt testowy 3",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "2,40",
+      "grossValueText": "2,40",
+      "finalValueText": "2,40",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 4,
+      "nameRaw": "Produkt testowy 4",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "2,60",
+      "grossValueText": "2,60",
+      "finalValueText": "2,60",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    }
+  ],
+  "documentDiscounts": [],
+  "totalDiscountText": null,
+  "vatSummary": [],
+  "fiscalTotalText": "9,20",
+  "amountDueText": "9,20",
+  "payments": [
+    {
+      "method": "TEST",
+      "amountText": "9,20"
+    }
+  ],
+  "codeContent": null,
+  "uncertainFields": [],
+  "notes": null
+}

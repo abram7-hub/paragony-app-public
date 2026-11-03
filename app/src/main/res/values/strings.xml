@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paragony</string>
+
+    <!-- Nawigacja -->
+    <string name="nav_start">Start</string>
+    <string name="nav_purchases">Zakupy</string>
+    <string name="nav_products">Produkty</string>
+    <string name="nav_groups">Grupy</string>
+    <string name="nav_settings">Ustawienia</string>
+    <string name="action_add">Dodaj</string>
+    <string name="action_back">Wstecz</string>
+
+    <!-- Tytuły ekranów -->
+    <string name="screen_add">Dodaj zakup</string>
+    <string name="screen_review">Sprawdź odczyt</string>
+    <string name="screen_purchase_details">Szczegóły zakupu</string>
+
+    <!-- Ekrany w budowie -->
+    <string name="placeholder_planned">Planowana zawartość</string>
+    <string name="placeholder_session">Powstanie w sesji %1$s.</string>
+    <string name="demo_open_review">Podgląd: ekran sprawdzania</string>
+    <string name="demo_open_details">Podgląd: szczegóły zakupu</string>
+
+    <string-array name="planned_start">
+        <item>Podsumowanie miesiąca</item>
+        <item>Wybór grup</item>
+        <item>Ostatnie zakupy</item>
+        <item>Liczba dokumentów do sprawdzenia</item>
+    </string-array>
+    <string-array name="planned_add">
+        <item>Aparat (skaner dokumentów)</item>
+        <item>Galeria i screenshoty</item>
+        <item>Udostępnij z innej aplikacji</item>
+        <item>Ręczny wydatek</item>
+    </string-array>
+    <string-array name="planned_review">
+        <item>Podgląd dokumentu</item>
+        <item>Rozpoznane dane i niepewne pola</item>
+        <item>Produkty i rabaty</item>
+        <item>Kontrola sumy</item>
+        <item>Wybór grup i zatwierdzenie</item>
+    </string-array>
+    <string-array name="planned_purchases">
+        <item>Historia zakupów</item>
+        <item>Wyszukiwanie</item>
+        <item>Filtry</item>
+    </string-array>
+    <string-array name="planned_purchase_details">
+        <item>Produkty, kwoty i rabaty</item>
+        <item>Grupy</item>
+        <item>Zdjęcia</item>
+        <item>Edycja i zwroty</item>
+    </string-array>
+    <string-array name="planned_products">
+        <item>Lista i wyszukiwarka</item>
+        <item>Przypisania nazw</item>
+        <item>Historia cen i porównania</item>
+    </string-array>
+    <string-array name="planned_groups">
+        <item>Lista grup</item>
+        <item>Podsumowania</item>
+        <item>Docelowo uczestnicy i rozliczenia</item>
+    </string-array>
+    <string-array name="planned_settings">
+        <item>Kategorie</item>
+        <item>Domyślne grupy</item>
+        <item>Eksport i import</item>
+        <item>Ustawienia odczytu (klucz API)</item>
+    </string-array>
+</resources>

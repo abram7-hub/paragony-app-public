@@ -1,0 +1,78 @@
+{
+  "documentType": "RECEIPT",
+  "store": {
+    "name": "Carrefour Demo",
+    "chain": "Carrefour",
+    "address": null,
+    "taxId": null
+  },
+  "purchaseDate": "2000-01-05",
+  "purchaseTime": "12:00",
+  "documentNumber": null,
+  "transactionNumber": null,
+  "currency": "PLN",
+  "items": [
+    {
+      "position": 1,
+      "nameRaw": "Produkt testowy 1",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "5,00",
+      "grossValueText": "5,00",
+      "finalValueText": "5,00",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 2,
+      "nameRaw": "Produkt testowy 2",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "5,20",
+      "grossValueText": "5,20",
+      "finalValueText": "5,20",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 3,
+      "nameRaw": "Produkt testowy 3",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "5,40",
+      "grossValueText": "5,40",
+      "finalValueText": "5,40",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 4,
+      "nameRaw": "Produkt testowy 4",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "5,60",
+      "grossValueText": "5,60",
+      "finalValueText": "5,60",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    }
+  ],
+  "documentDiscounts": [],
+  "totalDiscountText": null,
+  "vatSummary": [],
+  "fiscalTotalText": "21,20",
+  "amountDueText": "21,20",
+  "payments": [
+    {
+      "method": "TEST",
+      "amountText": "21,20"
+    }
+  ],
+  "codeContent": null,
+  "uncertainFields": [],
+  "notes": null
+}

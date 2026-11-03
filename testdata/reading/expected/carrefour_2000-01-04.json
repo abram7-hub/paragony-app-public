@@ -1,0 +1,138 @@
+{
+  "documentType": "RECEIPT",
+  "store": {
+    "name": "Carrefour Demo",
+    "chain": "Carrefour",
+    "address": null,
+    "taxId": null
+  },
+  "purchaseDate": "2000-01-04",
+  "purchaseTime": "12:00",
+  "documentNumber": null,
+  "transactionNumber": null,
+  "currency": "PLN",
+  "items": [
+    {
+      "position": 1,
+      "nameRaw": "Produkt testowy 1",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "4,00",
+      "grossValueText": "4,00",
+      "finalValueText": "4,00",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 2,
+      "nameRaw": "Produkt testowy 2",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "4,20",
+      "grossValueText": "4,20",
+      "finalValueText": "4,20",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 3,
+      "nameRaw": "Produkt testowy 3",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "4,40",
+      "grossValueText": "4,40",
+      "finalValueText": "4,40",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 4,
+      "nameRaw": "Produkt testowy 4",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "4,60",
+      "grossValueText": "4,60",
+      "finalValueText": "4,60",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 5,
+      "nameRaw": "Produkt testowy 5",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "4,80",
+      "grossValueText": "4,80",
+      "finalValueText": "4,80",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 6,
+      "nameRaw": "Produkt testowy 6",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "5,00",
+      "grossValueText": "5,00",
+      "finalValueText": "5,00",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 7,
+      "nameRaw": "Produkt testowy 7",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "5,20",
+      "grossValueText": "5,20",
+      "finalValueText": "5,20",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 8,
+      "nameRaw": "Produkt powtarzany",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "5,00",
+      "grossValueText": "5,00",
+      "finalValueText": "5,00",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    },
+    {
+      "position": 9,
+      "nameRaw": "Produkt powtarzany",
+      "quantityText": "1",
+      "unit": "PCS",
+      "unitPriceText": "5,00",
+      "grossValueText": "5,00",
+      "finalValueText": "5,00",
+      "discounts": [],
+      "vatRate": "A",
+      "itemType": "PRODUCT"
+    }
+  ],
+  "documentDiscounts": [],
+  "totalDiscountText": null,
+  "vatSummary": [],
+  "fiscalTotalText": "42,20",
+  "amountDueText": "42,20",
+  "payments": [
+    {
+      "method": "TEST",
+      "amountText": "42,20"
+    }
+  ],
+  "codeContent": null,
+  "uncertainFields": [],
+  "notes": null
+}
